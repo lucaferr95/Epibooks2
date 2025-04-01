@@ -12,7 +12,7 @@ function App() {
       <div className="d-flex flex-column min-vh-100 justify-content-center">
         <main className="flex-grow-1">
           <AlertWelcome />
-          <Cards />
+          <Cards className= "pb-1" />
         </main>
       </div>
       <MyFooter />

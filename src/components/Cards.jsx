@@ -15,9 +15,9 @@ class Cards extends Component {
     }
 
     return (
-      <Container>
+      <Container className={this.props.className}>
         <Row className="justify-content-center ">
-          <Col xs={12} md={9} lg={9} className="text-center w-100">
+          <Col xs={12} md={9} lg={9} className="text-center w-100 bg-black">
             <Carousel prevIcon={
                 <span
                   className="carousel-control-prev-icon "
@@ -64,11 +64,11 @@ class Cards extends Component {
                       {bookGroup.map((book) => {
                         return (
                           <Col key={book.asin} xs={12}  md={3} lg={3}>
-                            <div className="card h-100">
+                            <div className="card h-100 bg-info opacity-75">
                               <img
                                 src={book.img}
                                 alt={"immagine di " + book.title}
-                                className="d-block mx-auto"
+                                className="d-block mx-auto "
                                 style={{
                                   width: "100%",
                                   height: "300px",

@@ -1,24 +1,23 @@
 import Alert from "react-bootstrap/Alert";
 
-function AlertWelcome() {
+function AlertWelcome({ className }) {
   return (
-    <Alert
-      variant="warning"
-      className="bg-black w-100 m-0" // Assicurati che abbia w-100 e m-0 per non avere margini
-      style={{ fontFamily: "'Special Elite', cursive" }}
-    >
-      <Alert.Heading className="fw-bold fs-4 text-white">Welcome in Epibooks</Alert.Heading>
+    <Alert variant="warning" className={`bg-black w-100 ${className}`}>
+      <Alert.Heading className="fw-bold fs-4 text-white">
+        Welcome in Epibooks
+      </Alert.Heading>
       <p className="text-warning">Troverai qui il libro dei tuoi incubi</p>
       <hr />
       <p className="mb-0">
         <span className="text-info opacity-75">
-          “Alcuni pensano che io sia una persona orribile, ma non è vero. - <br />
+          “Alcuni pensano che io sia una persona orribile, ma non è vero.
         </span>
-     
+        <br />
         <span className="text-success opacity-75">
-          Io ho il cuore di un bambino - 
+          Io ho il cuore di un bambino -
         </span>
-        <span className="fw-bold text-danger"> <br />
+        <br />
+        <span className="fw-bold text-danger">
           in un barattolo sulla mia scrivania.” (Stephen King)
         </span>
       </p>
