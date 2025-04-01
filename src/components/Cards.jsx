@@ -1,5 +1,5 @@
 import { Col, Container, Row, Carousel } from "react-bootstrap";
-import books from "../Horror/horror.json";
+import books from "../Horror/horror_updated.json";
 import { Component } from "react";
 
 class Cards extends Component {
@@ -78,6 +78,7 @@ class Cards extends Component {
                               <div className="card-body d-flex flex-column justify-content-between">
                               <h5 className="d-flex flex-column  flex-grow-1">{book.title}</h5>
                               <p className="mb-0">€ {book.price}</p>
+                             <button><a href={book.shoplink}>ACQUISTA ORA</a></button>
                             </div>
                             </div>
                           </Col>
