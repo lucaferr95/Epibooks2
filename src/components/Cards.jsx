@@ -10,16 +10,47 @@ class Cards extends Component {
   render() {
     const chunkedBooks = []; 
     
-    for (let i = 0; i < books.length; i += 3) {
-      chunkedBooks.push(books.slice(i, i + 3));
+    for (let i = 0; i < books.length; i += 4) {
+      chunkedBooks.push(books.slice(i, i + 4));
     }
 
     return (
       <Container>
-        <Row className="justify-content-center">
-          <Col xs={12} md={10} lg={8} className="text-center">
-            <Carousel
+        <Row className="justify-content-center ">
+          <Col xs={12} md={9} lg={9} className="text-center w-100">
+            <Carousel prevIcon={
+                <span
+                  className="carousel-control-prev-icon "
+                  aria-hidden="true"
+                  style={{
+                    backgroundColor: "#F76296", // Colore della freccia precedente
+                    borderRadius: "50%",
+                    width: "40px",
+                    height: "40px",
+
+                    boxShadow: "0 0 15px black",
+                    border: "2px solid black",
+              opacity: 1 
+                  }}
+                />
+              }
+              nextIcon={
+                <span
+                  className="carousel-control-next-icon"
+                  aria-hidden="true"
+                  style={{
+                    backgroundColor: "#F76296", // Colore della freccia successiva
+                    borderRadius: "50%",
+                    width: "40px",
+                    height: "40px",
+              boxShadow: "0 0 15px black",
+              border: "2px solid black",
+        opacity: 1 
+                  }}  
+                  />
+                }
               onSlide={(i) => {
+
                 console.log("funziona??", i);
                 this.setState({
                   activeBook: books[i],
@@ -32,7 +63,7 @@ class Cards extends Component {
                     <Row className="d-flex justify-content-center">
                       {bookGroup.map((book) => {
                         return (
-                          <Col key={book.asin} xs={12} sm={6} md={4} lg={4}>
+                          <Col key={book.asin} xs={12}  md={3} lg={3}>
                             <div className="card h-100">
                               <img
                                 src={book.img}
@@ -46,7 +77,7 @@ class Cards extends Component {
                               />
                               <div className="card-body d-flex flex-column justify-content-between">
                               <h5 className="d-flex flex-column  flex-grow-1">{book.title}</h5>
-                              <p>€ {book.price}</p>
+                              <p className="mb-0">€ {book.price}</p>
                             </div>
                             </div>
                           </Col>
