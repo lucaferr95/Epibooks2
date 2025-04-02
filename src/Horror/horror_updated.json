@@ -1,5 +1,13 @@
 [
     {
+        "asin": "0234",
+        "title": "Cado Malato (Joan)",
+        "img": "https://www.entemutuomilano.it/wp-content/uploads/2022/12/shutterstock_1672921831.jpg",
+        "price": 5,
+        "category": "horror",
+        "shoplink": "https://www.amazon.it/dp/0234"
+    },
+    {
         "asin": "0345546792",
         "title": "The Silent Corner: A Novel of Suspense (Jane Hawk)",
         "img": "https://images-na.ssl-images-amazon.com/images/I/91dDIYze1wL.jpg",
