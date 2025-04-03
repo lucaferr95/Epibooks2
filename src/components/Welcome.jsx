@@ -2,7 +2,7 @@ import Alert from "react-bootstrap/Alert";
 
 function AlertWelcome({ className }) {
   return (
-    <Alert variant="warning" className={`bg-black w-100 ${className}`}>
+    <Alert variant="warning" className={` card-title bg-black w-100 ${className}`}>
       <Alert.Heading className="fw-bold fs-4 text-white">
         Welcome in Epibooks
       </Alert.Heading>
