@@ -8,6 +8,33 @@
         "shoplink": "https://www.amazon.it/dp/0234"
     },
     {
+        "asin": "0235",
+        "title": "Absolute poverty (Luca)",
+        "description": "La storia autobiografica di un uomo che nasce povero ma durante il percorso della vita...rimane povero.",
+        "img": "https://media.istockphoto.com/id/971197892/it/foto/apri-a-mano-svuota-un-portafoglio.jpg?s=612x612&w=0&k=20&c=yMhZhiJinYGYMnVFdmZJHVwmMaBvV8Xz6gSwX4wrB-s=",
+        "price": 0.99,
+        "category": "horror",
+        "shoplink": "https://www.amazon.it/dp/0234"
+    },
+    {
+        "asin": "0236",
+        "title": "The lemons, My Lady",
+        "description": "La storia di una signora cbe dimenticò i limoni dal fruttivendolo",
+        "img": "https://barletta.gocity.it/library/media/limoni_meme1.jpg",
+        "price": 1.50,
+        "category": "horror",
+        "shoplink": "https://www.amazon.it/dp/0234"
+    },
+    {
+        "asin": "0237",
+        "title": "Bello, ma come abbiamo fatto a perdere contro il Marocco?",
+        "description": "La storia della partitella in spiagga di Aldo, Giovanni e Giacomo",
+        "img": "https://www.lascimmiapensa.com/wp-content/uploads/2023/07/Italia-Marocco-da-Tre-uomini-e-una-gamba-di-Aldo-Giovanni-e-Giacomo-00-01-05-1-e1689591262262.png",
+        "price": 10.00,
+        "category": "horror",
+        "shoplink": "https://www.amazon.it/dp/0234"
+    },
+    {
         "asin": "0345546792",
         "title": "The Silent Corner: A Novel of Suspense (Jane Hawk)",
         "img": "https://images-na.ssl-images-amazon.com/images/I/91dDIYze1wL.jpg",

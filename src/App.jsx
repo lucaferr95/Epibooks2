@@ -11,6 +11,7 @@ import HorrorBooks from "./Horror/horror_updated.json";
 //QUA IMPORTO LA LISTA DI LIBRI DOVE DENTRO HO INSERITO IL COMPONENTE SINGLE BOOK
 import BookList from "./components/BooksList";
 import CadoBook from "./components/CadoBook";
+import Bestseller from "./components/Bestseller.jsx";
 
 
 
@@ -26,6 +27,7 @@ function App() {
       
           <BookList BooksArray={HorrorBooks}/>
     <CadoBook libro={HorrorBooks[0]}/>
+    <Bestseller libri={HorrorBooks.slice(1,4)}/>
         </main>
       </div>
       <MyFooter />
