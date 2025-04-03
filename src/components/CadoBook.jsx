@@ -20,7 +20,7 @@ const CadoBook = (props) => {
             />
             <div className="card-body d-flex flex-column justify-content-between">
               <h5 className="d-flex flex-column flex-grow-1">{props.libro.title}</h5>
-              <h6>(Tratto da una vera storia complicata: gli studenti di Epicode)</h6>
+              <h6 className="card-title">(Tratto da una vera storia complicata: quella degli studenti di Epicode)</h6>
               <p className="mb-0">€ {props.libro.price}</p>
               <button className="bg-black opacity-75">
                 <a href={props.libro.shoplink} className="text-white text-decoration-none">
